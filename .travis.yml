@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3.6"
+  - "3.7"
+install: true
+script: true
+deploy:
+  provider: pypi
+  user: maroshmka
+  password:
+    secure: S43pAicLiaF6d/QREf9Z/DM1tGc7MKEGQzJwIdOVkiUF9iEkFP7llmS+0T6KfI3/XOeYOS4B+jQQSES60Oxj/hK7MBtNAMqRD/PlCVIzVx7T0PR3sj0UvPJnaI3IetSD8SlY4C0AJwTI5EfCYMQZn/ydTnVn68f2VNmpRAjMXTMnDbjhvMS4Cz8mdXKezK+FccVYiUxI//gPsoKR57L8Y1RryiVCdACjBhZes1D6AwmC32+46nfwuytN5pERpaFY3AFutXADA0qH3oIpoZdxqvxTKxChYA8MiwUU5eXkhe5zd3KgKGUBP2mGIXS7Ov7VrD4f6b2JO+UoeB87gsEW6G9EHfc/ylmfb5kOgBq1AK6UBXSlccByXRy+LICCbkqt8efvk/GueesFKg92rrUzw25SlSWmIWwsU1ug3hx8BSwNCC9aHAUqixqUqCyPBT+r/VEMG9EDKQockbOan6OGko8uZFDhHUgC06oidLaZcn+agakirNEmP0Zdv+6WUU8ONMjgpAXb71rLrDRnbQPgER2SFuRW777xD+C15sGgtUnhyH7Ow0znQvl4lkz7xcPCtu2848ODkOThMu5iRUg3t2TDF5JFXC4yaqKgQ2KTniL09WJ67BAlY00+qlMYq+Aj3ldrz5VzpCNLEFskAiNQMqhk+IRA/AT378BeYSapPH4=
+  on:
+    tags: true
+  distributions: sdist bdist_wheel
