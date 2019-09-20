@@ -2,6 +2,12 @@
 
 Small package for easier management of kube secrets.
 
+# install
+
+```bash
+$ pip3 install kube-secrets
+```
+
 # usage
 
 data json from stdin -> kube secret
