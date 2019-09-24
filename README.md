@@ -29,3 +29,10 @@ __Problem:__ You want to export json/yaml file as kube secrets and use them.  Se
              encoded in base64. You need to write yaml manifest and put there encoded secrets.
 
 This package should make it easier for you to just grab json and export it.
+
+# next features
+
+- update mode
+	- delete + create
+- edit directly on localhost
+	- decode, open in EDITOR, save, encode, push
